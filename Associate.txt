@@ -1,0 +1,888 @@
+C:\Program Files\LocalServerXampp\htdocs\BecodeProjecten\2.3.1.pokePHP\index.php:5:
+array (size=17)
+  'abilities' =>
+    array (size=2)
+      0 =>
+        array (size=3)
+          'ability' =>
+            array (size=2)
+              ...
+          'is_hidden' => boolean true
+          'slot' => int 3
+      1 =>
+        array (size=3)
+          'ability' =>
+            array (size=2)
+              ...
+          'is_hidden' => boolean false
+          'slot' => int 1
+  'base_experience' => int 112
+  'forms' =>
+    array (size=1)
+      0 =>
+        array (size=2)
+          'name' => string 'pikachu' (length=7)
+          'url' => string 'https://pokeapi.co/api/v2/pokemon-form/25/' (length=42)
+  'game_indices' =>
+    array (size=20)
+      0 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      1 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      2 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      3 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      4 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      5 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      6 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      7 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      8 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      9 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      10 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      11 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      12 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      13 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      14 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      15 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      16 =>
+        array (size=2)
+          'game_index' => int 25
+          'version' =>
+            array (size=2)
+              ...
+      17 =>
+        array (size=2)
+          'game_index' => int 84
+          'version' =>
+            array (size=2)
+              ...
+      18 =>
+        array (size=2)
+          'game_index' => int 84
+          'version' =>
+            array (size=2)
+              ...
+      19 =>
+        array (size=2)
+          'game_index' => int 84
+          'version' =>
+            array (size=2)
+              ...
+  'height' => int 4
+  'held_items' =>
+    array (size=2)
+      0 =>
+        array (size=2)
+          'item' =>
+            array (size=2)
+              ...
+          'version_details' =>
+            array (size=10)
+              ...
+      1 =>
+        array (size=2)
+          'item' =>
+            array (size=2)
+              ...
+          'version_details' =>
+            array (size=16)
+              ...
+  'id' => int 25
+  'is_default' => boolean true
+  'location_area_encounters' => string 'https://pokeapi.co/api/v2/pokemon/25/encounters' (length=47)
+  'moves' =>
+    array (size=81)
+      0 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=4)
+              ...
+      1 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      2 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=7)
+              ...
+      3 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=17)
+              ...
+      4 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=4)
+              ...
+      5 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=3)
+              ...
+      6 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=5)
+              ...
+      7 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      8 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=5)
+              ...
+      9 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=17)
+              ...
+      10 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=18)
+              ...
+      11 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      12 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      13 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      14 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=5)
+              ...
+      15 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=14)
+              ...
+      16 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=18)
+              ...
+      17 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=34)
+              ...
+      18 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=32)
+              ...
+      19 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=36)
+              ...
+      20 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=12)
+              ...
+      21 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=18)
+              ...
+      22 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=18)
+              ...
+      23 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=18)
+              ...
+      24 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      25 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=5)
+              ...
+      26 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=35)
+              ...
+      27 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=3)
+              ...
+      28 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=31)
+              ...
+      29 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      30 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      31 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=8)
+              ...
+      32 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      33 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=16)
+              ...
+      34 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=18)
+              ...
+      35 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=14)
+              ...
+      36 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=7)
+              ...
+      37 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      38 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=16)
+              ...
+      39 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=5)
+              ...
+      40 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      41 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      42 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=6)
+              ...
+      43 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=5)
+              ...
+      44 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=13)
+              ...
+      45 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=3)
+              ...
+      46 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=16)
+              ...
+      47 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=11)
+              ...
+      48 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=16)
+              ...
+      49 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=16)
+              ...
+      50 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=3)
+              ...
+      51 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=12)
+              ...
+      52 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=16)
+              ...
+      53 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=16)
+              ...
+      54 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=12)
+              ...
+      55 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=14)
+              ...
+      56 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=9)
+              ...
+      57 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=4)
+              ...
+      58 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=14)
+              ...
+      59 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=4)
+              ...
+      60 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=9)
+              ...
+      61 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=4)
+              ...
+      62 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=2)
+              ...
+      63 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=9)
+              ...
+      64 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=3)
+              ...
+      65 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=9)
+              ...
+      66 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=9)
+              ...
+      67 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=4)
+              ...
+      68 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=9)
+              ...
+      69 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=3)
+              ...
+      70 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=9)
+              ...
+      71 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=9)
+              ...
+      72 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=6)
+              ...
+      73 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=6)
+              ...
+      74 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=6)
+              ...
+      75 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=6)
+              ...
+      76 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=1)
+              ...
+      77 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=9)
+              ...
+      78 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=4)
+              ...
+      79 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=4)
+              ...
+      80 =>
+        array (size=2)
+          'move' =>
+            array (size=2)
+              ...
+          'version_group_details' =>
+            array (size=4)
+              ...
+  'name' => string 'pikachu' (length=7)
+  'order' => int 35
+  'species' =>
+    array (size=2)
+      'name' => string 'pikachu' (length=7)
+      'url' => string 'https://pokeapi.co/api/v2/pokemon-species/25/' (length=45)
+  'sprites' =>
+    array (size=8)
+      'back_default' => string 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png' (length=84)
+      'back_female' => string 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/25.png' (length=91)
+      'back_shiny' => string 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/25.png' (length=90)
+      'back_shiny_female' => string 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/25.png' (length=97)
+      'front_default' => string 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png' (length=79)
+      'front_female' => string 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/25.png' (length=86)
+      'front_shiny' => string 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png' (length=85)
+      'front_shiny_female' => string 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/25.png' (length=92)
+  'stats' =>
+    array (size=6)
+      0 =>
+        array (size=3)
+          'base_stat' => int 90
+          'effort' => int 2
+          'stat' =>
+            array (size=2)
+              ...
+      1 =>
+        array (size=3)
+          'base_stat' => int 50
+          'effort' => int 0
+          'stat' =>
+            array (size=2)
+              ...
+      2 =>
+        array (size=3)
+          'base_stat' => int 50
+          'effort' => int 0
+          'stat' =>
+            array (size=2)
+              ...
+      3 =>
+        array (size=3)
+          'base_stat' => int 40
+          'effort' => int 0
+          'stat' =>
+            array (size=2)
+              ...
+      4 =>
+        array (size=3)
+          'base_stat' => int 55
+          'effort' => int 0
+          'stat' =>
+            array (size=2)
+              ...
+      5 =>
+        array (size=3)
+          'base_stat' => int 35
+          'effort' => int 0
+          'stat' =>
+            array (size=2)
+              ...
+  'types' =>
+    array (size=1)
+      0 =>
+        array (size=2)
+          'slot' => int 1
+          'type' =>
+            array (size=2)
+              ...
+  'weight' => int 60
