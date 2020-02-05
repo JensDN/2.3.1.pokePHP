@@ -2,7 +2,7 @@
 declare(strict_types=1);
 ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
+error_reporting(E_ERROR);
 
 $pokeInput = $_GET['pokemon'];
 switch (isset($pokeInput)) {
@@ -43,15 +43,28 @@ function evolutionChain($urlEvoChain): array
     $evolutionChainUrl = $dataForChain['evolution_chain']['url'];
     $responseChain = file_get_contents($evolutionChainUrl);
     $dataChain = json_decode($responseChain, true);
-    $firstEvolution = $dataChain['chain']['species']['name'];
-    $secondEvolution = $dataChain['chain']['evolves_to'][0]['species']['name'];
-    $thirdEvolution = $dataChain['chain']['evolves_to'][0]['evolves_to'][0]['species']['name'];
+
+    is_null($dataChain['chain']['species']['name'])?$firstEvolution ='No first evolution' : $firstEvolution = $dataChain['chain']['species']['name'];
+    is_null($dataChain['chain']['evolves_to'][0]['species']['name'])?$secondEvolution ='No second evolution' : $secondEvolution = $dataChain['chain']['evolves_to'][0]['species']['name'];
+    is_null($dataChain['chain']['evolves_to'][0]['evolves_to'][0]['species']['name'])?$thirdEvolution ='No third evolution' : $thirdEvolution = $dataChain['chain']['evolves_to'][0]['evolves_to'][0]['species']['name'];
+
     return ['firstEvo' => $firstEvolution, 'secondEvo' => $secondEvolution, 'thirdEvo' => $thirdEvolution];
 };
-function randomMoves(array $Moves, int $thatArrLenght): array
-{
-    return array_rand($Moves, min($thatArrLenght, count($Moves)));
-}
+function randomMoves(array $Moves, int $thatArrLenght): array {
+    $minvalue = min($thatArrLenght, count($Moves));
+    $keysArr = array_rand($Moves, $minvalue);
+    $arrayWithAllThe4Moves = Array();
+    if ($keysArr == 0) {
+        array_push($arrayWithAllThe4Moves, $Moves[$keysArr]['move']['name']);
+    }
+    else {
+        foreach ($keysArr as $value) {
+            array_push($arrayWithAllThe4Moves, $Moves[$value]['move']['name']);
+        }
+
+    };
+    return $arrayWithAllThe4Moves;
+};
 ?>
 
 
@@ -77,16 +90,16 @@ function randomMoves(array $Moves, int $thatArrLenght): array
     <div class="divider"></div>
     <div class="stats-display">
         <h2><?php echo $pokemon['name'] ?></h2>
-        <h3>Abilities</h3>
+   <!--     <h3>Abilities</h3>
         <ul>
             <li>Solar-power</li>
             <li>Blaze</li>
-        </ul>
+        </ul>-->
         <h3>Moves</h3>
         <ul>
-            <li>dragon-rage</li>
-            <li>dragon-breath</li>
-            <li>dragon-claw</li>
+            <?php foreach ($pokemon['moves'] as $itemMove){
+                echo '<li>'.$itemMove.'</li>';
+            } ?>
         </ul>
     </div>
     <div class="botom-actions">
